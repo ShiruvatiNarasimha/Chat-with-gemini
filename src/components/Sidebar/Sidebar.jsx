@@ -1,12 +1,12 @@
 import React from 'react';
-import './sidebar.css'
+import './Sidebar.css'
 import {assets} from '../../assets/assets';
 
 const Sidebar = () => {
   return (
-    <div className='sidebar'>
+    <div className='Sidebar'>
       <div className='top'>
-        <img src={assets.menu_icon} alt=""/>
+        <img className="menu" src={assets.menu_icon} alt=""/>
         <div className="new-chat">
           <img src={assets.plus_icon} alt=''/>
           <p>New Chat</p>
