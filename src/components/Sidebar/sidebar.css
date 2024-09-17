@@ -19,6 +19,7 @@
 
 .Sidebar .new-chat{
     margin-top: 50px;
+    margin-bottom: 10px;
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -27,6 +28,10 @@
     font-size: 14px;
     color: gray ;
     cursor: pointer;
+}
+
+.Sidebar .new-chat:hover{
+    background-color: #8e9485;
 }
 
 .Sidebar .recent{
