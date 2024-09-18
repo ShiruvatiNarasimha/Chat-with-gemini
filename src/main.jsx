@@ -5,7 +5,7 @@ import './index.css'
 import ContextProvider from '/src/Context/Context.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <ContextProvider>
+   <ContextProvider>
       <App />
-  </ContextProvider>,
+   </ContextProvider>,
 )
