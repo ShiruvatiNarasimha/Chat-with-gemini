@@ -10,7 +10,8 @@ function App() {
       <Sidebar/>
       <Main/>
     </>
+    
   )
 }
 
-export default App
+export default App;
