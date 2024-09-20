@@ -4,10 +4,11 @@ import viteLogo from '/vite.svg'
 import Main from './components/Main/Main'
 import Sidebar from './components/Side/sidebar'
 
+
 function App() {
   return (
     <>
-      <Sidebar/>
+    <Sidebar/>
       <Main/>
     </>
     

@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import runChat from "../config/gemini";
+import runChat from "../config/Gemini";
 
 
 export const Context = createContext()
